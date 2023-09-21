@@ -11,7 +11,7 @@ const $botonReproducir = document.querySelector("#btnReproducir"),
     $botonPausar = document.querySelector("#btnPausar"),
     $botonReiniciar = document.querySelector("#btnReiniciar");
 // El sonido que podemos reproducir o pausar
-const sonido = cargarSonido("./music/encontre.mp3");
+const sonido = cargarSonido("./music/thousand(2).mp3");
 $botonReproducir.onclick = () => {
     sonido.play();
 };
